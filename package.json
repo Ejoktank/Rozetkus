@@ -1,0 +1,23 @@
+{
+  "name": "rozetkus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rozetkus.js",
+  "scripts": {
+    "start": "node rozetkus.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ejoktank/Rozetkus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ejoktank/Rozetkus/issues"
+  },
+  "homepage": "https://github.com/Ejoktank/Rozetkus#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
