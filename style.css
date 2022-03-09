@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    margin-bottom: 100px;
+}
+
+.section-hero {}
+
+.section-tagline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buy-tagline-container {
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 50px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    font-family: Druk Wide Cyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.subheader {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.hero-pictures {
+    max-width: 100vw;
+    height: 59vh;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 372px;
+    height: 81px;
+
+    background-color: #1858FC;
+    border-radius: 115px;
+    color: #fff;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.picture-container {
+    position: relative;
+
+    width: 50vw;
+    height: 100%;
+}
+
+.plug-pic {
+    position: absolute;
+}
+
+.plug-pic-1 {
+    left: 0;
+}
+
+.plug-pic-2 {
+    left: 450px;
+}
+
+.rozetkus-pic {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+
+    z-index: -1;
+}
+
+.tagline {
+    width: 50vw;
+    height: 100%;
+
+    z-index: 100;
+}
+
+.tagline-right {
+    padding-right: 15%;
+    padding-left: 10%;
+}
+
+.tagline-left {
+    padding-left: 15%;
+    padding-right: 10%
+}
+
+.tagline-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    width: 100%;
+}
+
+.dark-container {
+    background-color: #000;
+    border-radius: 170px;
+}
+
+.radius-170 {
+    border-radius: 170px;
+}
+
+.subcontainer {
+    width: 450px;
+}
+
+.tagline-header {
+    font-family: Druk Wide Cyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.tagline-subheader {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.tagline-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.tagline-dark {
+    color: #fff;
+}
+
+.price {
+    font-family: Druk Wide Cyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.color-boxes-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colored-squaee {
+    width: 1000px;
+    height: 1000px;
+
+    background-color: #4D4D4D;
+    border-radius: 100px;
+}
+
+.color-box {
+    width: 80px;
+    height: 80px;
+
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.color-1 {
+    background: #4D4D4D;
+}
+
+.color-2 {
+    background: #3C4A68;
+}
+
+.color-3 {
+    background: #40535F;
+}
+
+.color-4 {
+    background: #E8E8E8;
+}
