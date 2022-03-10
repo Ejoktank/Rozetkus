@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('fonts/DrukCyr-Heavy.eot');
+    src: local('Druk Cyr Heavy'), local('DrukCyr-Heavy'),
+        url('fonts/DrukCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DrukCyr-Heavy.woff2') format('woff2'),
+        url('fonts/DrukCyr-Heavy.woff') format('woff'),
+        url('fonts/DrukCyr-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -42,7 +54,7 @@ section {
     margin-top: 0;
     margin-bottom: 0;
 
-    font-family: Druk Wide Cyr;
+    font-family: 'DrukCyr-Heavy';
     font-style: normal;
     font-weight: bold;
     font-size: 100px;
@@ -51,7 +63,7 @@ section {
 .subheader {
     margin-top: 0;
 
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -192,21 +204,21 @@ section {
 }
 
 .tagline-header {
-    font-family: Druk Wide Cyr;
+    font-family: 'DrukCyr-Heavy';
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
 }
 
 .tagline-subheader {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 600;
     font-size: 30px;
 }
 
 .tagline-text {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -221,14 +233,14 @@ section {
 }
 
 .price {
-    font-family: Druk Wide Cyr;
+    font-family: 'DrukCyr-Heavy';
     font-style: normal;
     font-weight: bold;
     font-size: 100px;
 }
 
 .description {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
