@@ -32,6 +32,9 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    padding-top: 0;
+    padding-bottom: 200px;
 }
 
 .section-wirless {
@@ -124,28 +127,16 @@ section {
     width: 100%;
 }
 
-.plug-pic {
-    position: absolute;
-}
-
-.plug-pic-1 {
-    left: 0;
-}
-
-.plug-pic-2 {
-    left: 450px;
-}
-
-.plug-pic-3 {
-    left: 550px;
-}
-
 .rozetkus-pic {
     position: absolute;
     left: 300px;
     top: 300px;
 
     z-index: -1;
+}
+
+.shtepsel-pic {
+    transform: translate(0, -28px);
 }
 
 .tagline {
@@ -222,10 +213,19 @@ section {
 }
 
 .price {
+    max-width: 450px;
+    margin: 0;
+
     font-family: 'Druk Cyr';
     font-style: normal;
     font-weight: bold;
     font-size: 100px;
+
+    transform: scale(2, 1) translate(112px, 0);
+}
+
+.btn-last {
+    margin-top: 10px;
 }
 
 .description {
