@@ -16,14 +16,17 @@
 
 body {
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 section {
-    height: 100vh;
     padding: 100px 0 100px 0;
+    overflow: hidden;
 }
 
 .section-hero {
+    overflow-x: hidden;
     width: 100vw;
 }
 
@@ -39,6 +42,7 @@ section {
 
 .section-wirless {
     padding: 60px 30px;
+    height: 100vh;
 }
 
 .container-wirless {
@@ -270,6 +274,10 @@ section {
 
 .color-4 {
     background: #E8E8E8;
+}
+
+footer {
+    height: 100px;
 }
 
 @media (max-width: 1300px) {
