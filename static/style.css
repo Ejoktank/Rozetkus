@@ -28,6 +28,7 @@ section {
 .section-hero {
     overflow-x: hidden;
     width: 100vw;
+    height: 100vh;
 }
 
 .section-tagline {
@@ -118,6 +119,19 @@ section {
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
+
+    transition: 0.2s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #214bb6;
+}
+
+.btn:active {
+    transition: 0.0s;
+    background-color: #1155ff;
 }
 
 .picture-container {
