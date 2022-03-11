@@ -22,7 +22,48 @@ body {
 
 section {
     padding: 100px 0 100px 0;
+    height: 100vh;
     overflow: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.scroll-bar {
+    position: fixed;
+    z-index: 5;
+    height: 3px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.scroll-bar-progress {
+    width: 20%;
+    height: 100%;
+    background: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.main-scroller {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.opacity-controller {
+    opacity: 1.0;
+    transition: 0.2s;
+}
+
+.main-scroller[scrolling] .opacity-controller {
+    opacity: 0.0;
 }
 
 .section-hero {
@@ -272,6 +313,8 @@ section {
 
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
+
+    cursor: pointer;
 }
 
 .color-1 {
