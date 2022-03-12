@@ -29,7 +29,7 @@ section {
 main {
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
 }
@@ -92,7 +92,9 @@ main {
 
     border-radius: 170px;
     background-image: url(img/wall.jpg);
-
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .buy-tagline-container {
@@ -102,6 +104,7 @@ main {
 }
 
 .container {
+    max-width: 1825px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
@@ -186,6 +189,10 @@ main {
     width: 100%;
 }
 
+.picture-container {
+    height: 100%;
+}
+
 .rozetkus-pic {
     position: absolute;
     left: 300px;
@@ -195,13 +202,13 @@ main {
 }
 
 .shtepsel-pic {
-    transform: translate(0, -28px);
+    transform: translate(0, 28px);
 }
 
 .tagline {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
     width: 50vw;
@@ -230,6 +237,8 @@ main {
 }
 
 .dark-container {
+    height: 100%;
+
     background-color: #000;
     border-radius: 170px;
 }
@@ -267,8 +276,21 @@ main {
     color: #fff;
 }
 
+.pic-dark {
+    height: 100%;
+    width: 100%;
+    background-image: url(img/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .section-dark {
-    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .price {
@@ -335,6 +357,60 @@ main {
 
 footer {
     height: 100px;
+}
+
+@media (min-width: 2876px) {
+    .container {
+        min-width: 2500px;
+    }
+
+    .header {
+        font-size: 150px;
+        margin-bottom: 40px;
+    }
+
+    .subheader {
+        font-size: 50px;
+        margin-bottom: 10vh;
+    }
+
+    .btn-buy {
+        width: 40%;
+        height: 150px;
+        margin-top: 10vh;
+        font-size: 100px;
+    }
+
+    .tagline-header {
+        font-size: 100px;
+        margin-bottom: 0;
+    }
+
+    .tagline-subheader {
+        font-size: 55px;
+        margin-bottom: 0;
+    }
+
+    .tagline-text {
+        font-size: 55px;
+    }
+
+    .tagline-right {
+        padding-right: 5em;
+    }
+
+    .subcontainer {
+        width: 600px;
+    }
+
+    .color-box {
+        width: 120px;
+        height: 120px;
+    }
+
+    .description {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 1300px) {
