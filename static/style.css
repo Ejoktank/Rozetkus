@@ -241,6 +241,8 @@ main {
 
     background-color: #000;
     border-radius: 170px;
+
+    overflow: hidden;
 }
 
 .radius-170 {
