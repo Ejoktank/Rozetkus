@@ -1,5 +1,17 @@
 console.log("Script is attached!");
 
+document.getElementById('buy-btn').onclick = function() {
+    console.log('wtf!!!!');
+    const pages = document.getElementsByTagName('section');
+    const page = 4;
+    let w = 0;
+    for(let i = 0; i < page; ++i) {
+        w += pages[i].clientHeight;
+    }
+    window.scroll(0,w);
+}
+
+/* GARBAGE
 document.onwheel = function(e) {
     move(Math.sign(e.deltaY));
 }
@@ -68,11 +80,9 @@ function handleTouchMove(evt) {
     var xDiff = xDown - xUp;
     var yDiff = yDown - yUp;
                                                                          
-    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {
         if ( xDiff > 0 ) {
-            /* right swipe */ 
         } else {
-            /* left swipe */
         }                       
     } else {
         if ( yDiff > 0 ) {
@@ -81,7 +91,7 @@ function handleTouchMove(evt) {
             move(-1);
         }                                                                 
     }
-    /* reset values */
     xDown = null;
     yDown = null;                                             
 };
+*/
