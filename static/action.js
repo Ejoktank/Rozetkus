@@ -1,7 +1,6 @@
 console.log("Script is attached!");
 
 document.getElementById('buy-btn').onclick = function() {
-    console.log('wtf!!!!');
     const pages = document.getElementsByTagName('section');
     const page = 4;
     let w = 0;
