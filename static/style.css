@@ -143,7 +143,10 @@ main {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
 
+.hero-pictures img:not(:last-child) {
+    margin-right: 30px;
 }
 
 .btn {
@@ -420,8 +423,39 @@ footer {
         height: 25vh;
     }
 
+    .header {
+        font-size: 90px;
+    }
+
+    .subheader {
+        font-size: 22px;
+    }
+
+    .hero-pictures {
+        margin-top: 10vh;
+    }
+
+    .btn-buy {
+        width: 20%;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 20vh;
+    }
+
     .tagline-right {
         padding-right: 5em;
+    }
+
+    .tagline-header {
+        font-size: 45px;
+    }
+
+    .tagline-subheader {
+        font-size: 22px;
+    }
+
+    .tagline-text {
+        font-size: 22px;
     }
 }
 
